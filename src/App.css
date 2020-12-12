@@ -1,0 +1,244 @@
+html{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.App-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Set-menu-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+  padding: 25px;
+  margin-right: 100px;
+}
+
+.Set-menu-max-wrapper{
+  display: flex;
+  flex-direction: row;
+  color:  #61dafb;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Set-menu-max-error{
+  display: flex;
+  flex-direction: row;
+  color:  #61dafb;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Set-menu-max-wrapper input{
+  width: 250px;
+  color:  black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 50px;
+  padding: 5px;
+  outline: none;
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Set-menu-max-error input{
+  width: 250px;
+  color:  red;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 50px;
+  padding: 5px;
+  outline: none;
+  border: 2px solid red;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Set-menu-start-wrapper{
+  display: flex;
+  flex-direction: row;
+  color:  #61dafb;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 80px
+}
+
+.Set-menu-start-error{
+  display: flex;
+  flex-direction: row;
+  color:  #61dafb;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 80px
+}
+
+.Set-menu-start-wrapper input{
+  width: 250px;
+  color:  black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding: 5px;
+  outline: none;
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Set-menu-start-error input{
+  width: 250px;
+  color:  red;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding: 5px;
+  outline: none;
+  border: 2px solid red;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+  padding: 25px
+}
+
+.Display-wrapper{
+  width: 490px;
+  height: 220px;
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: #61dafb;
+  font-weight: bold;
+  font-size: 130px;
+  text-align: center;
+}
+
+.Display-wrapper-max{
+  width: 490px;
+  height: 220px;
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: red;
+  font-weight: bold;
+  font-size: 145px;
+  text-align: center;
+}
+
+.Btn-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 490px;
+  height: 110px;
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+}
+
+.Btn-set-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 490px;
+  height: 150px;
+  border: 2px solid #61dafb;
+  border-radius: 20px;
+}
+
+.Btn-increment button{
+  cursor: pointer;
+  background-color: #61dafb;
+  border-radius: 20px;
+  color:  #282c34;
+  outline: none;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.Btn-increment-max button{
+  background-color: rgb(96, 133, 136);
+  border-radius: 20px;
+  color:  #282c34;
+  outline: none;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.Btn-reset button{
+  cursor: pointer;
+  background-color: #61dafb;
+  border-radius: 20px;
+  color:  #282c34;
+  outline: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Btn-reset-start button{
+  background-color: rgb(96, 133, 136);
+  border-radius: 20px;
+  color:  #282c34;
+  outline: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Btn-set button {
+  cursor: pointer;
+  background-color: #61dafb;
+  border-radius: 20px;
+  color:  #282c34;
+  outline: none;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.Btn-set-disable button {
+  cursor: pointer;
+  background-color: rgb(96, 133, 136);
+  border-radius: 20px;
+  color:  #282c34;
+  outline: none;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/* 
+
+.App-header { 
+  
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
