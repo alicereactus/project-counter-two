@@ -1,0 +1,130 @@
+.SetMenuWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+    border: 2px solid #61dafb;
+    border-radius: 20px;
+    padding: 25px;
+    margin-right: 100px;
+  }
+  
+  .SetMenuMaxWrapper{
+    display: flex;
+    flex-direction: row;
+    color:  #61dafb;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .SetMenuMaxError{
+    display: flex;
+    flex-direction: row;
+    color:  #61dafb;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .SetMenuMaxWrapper input{
+    width: 250px;
+    color:  black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid #61dafb;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .SetMenuMaxError input{
+    width: 250px;
+    color:  red;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .SetMenuStartWrapper{
+    display: flex;
+    flex-direction: row;
+    color:  #61dafb;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 80px
+  }
+  
+  .SetMenuStartError{
+    display: flex;
+    flex-direction: row;
+    color:  #61dafb;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 80px
+  }
+  
+  .SetMenuStartWrapper input{
+    width: 250px;
+    color:  black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid #61dafb;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .SetMenuStartError input{
+    width: 250px;
+    color:  red;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 5px;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .BtnSetWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 490px;
+    height: 150px;
+    border: 2px solid #61dafb;
+    border-radius: 20px;
+  }
+  
+  .BtnSet button {
+    cursor: pointer;
+    background-color: #61dafb;
+    border-radius: 20px;
+    color:  #282c34;
+    outline: none;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .BtnSetDisable button {
+    cursor: pointer;
+    background-color: rgb(96, 133, 136);
+    border-radius: 20px;
+    color:  #282c34;
+    outline: none;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
