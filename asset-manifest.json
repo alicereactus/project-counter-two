@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/project-counter-two/static/css/main.0c780773.chunk.css",
-    "main.js": "/project-counter-two/static/js/main.4aabde3d.chunk.js",
-    "main.js.map": "/project-counter-two/static/js/main.4aabde3d.chunk.js.map",
-    "runtime-main.js": "/project-counter-two/static/js/runtime-main.4d0907f7.js",
-    "runtime-main.js.map": "/project-counter-two/static/js/runtime-main.4d0907f7.js.map",
-    "static/js/2.c005bbf1.chunk.js": "/project-counter-two/static/js/2.c005bbf1.chunk.js",
-    "static/js/2.c005bbf1.chunk.js.map": "/project-counter-two/static/js/2.c005bbf1.chunk.js.map",
-    "static/js/3.6eb892a1.chunk.js": "/project-counter-two/static/js/3.6eb892a1.chunk.js",
-    "static/js/3.6eb892a1.chunk.js.map": "/project-counter-two/static/js/3.6eb892a1.chunk.js.map",
-    "index.html": "/project-counter-two/index.html",
-    "static/css/main.0c780773.chunk.css.map": "/project-counter-two/static/css/main.0c780773.chunk.css.map",
-    "static/js/2.c005bbf1.chunk.js.LICENSE.txt": "/project-counter-two/static/js/2.c005bbf1.chunk.js.LICENSE.txt"
+    "main.css": "/project-counter-two-with-redux/static/css/main.6ea1d55d.chunk.css",
+    "main.js": "/project-counter-two-with-redux/static/js/main.d859c95c.chunk.js",
+    "main.js.map": "/project-counter-two-with-redux/static/js/main.d859c95c.chunk.js.map",
+    "runtime-main.js": "/project-counter-two-with-redux/static/js/runtime-main.d1eaa9e3.js",
+    "runtime-main.js.map": "/project-counter-two-with-redux/static/js/runtime-main.d1eaa9e3.js.map",
+    "static/js/2.1ae4c199.chunk.js": "/project-counter-two-with-redux/static/js/2.1ae4c199.chunk.js",
+    "static/js/2.1ae4c199.chunk.js.map": "/project-counter-two-with-redux/static/js/2.1ae4c199.chunk.js.map",
+    "static/js/3.3a9bed37.chunk.js": "/project-counter-two-with-redux/static/js/3.3a9bed37.chunk.js",
+    "static/js/3.3a9bed37.chunk.js.map": "/project-counter-two-with-redux/static/js/3.3a9bed37.chunk.js.map",
+    "index.html": "/project-counter-two-with-redux/index.html",
+    "static/css/main.6ea1d55d.chunk.css.map": "/project-counter-two-with-redux/static/css/main.6ea1d55d.chunk.css.map",
+    "static/js/2.1ae4c199.chunk.js.LICENSE.txt": "/project-counter-two-with-redux/static/js/2.1ae4c199.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d0907f7.js",
-    "static/js/2.c005bbf1.chunk.js",
-    "static/css/main.0c780773.chunk.css",
-    "static/js/main.4aabde3d.chunk.js"
+    "static/js/runtime-main.d1eaa9e3.js",
+    "static/js/2.1ae4c199.chunk.js",
+    "static/css/main.6ea1d55d.chunk.css",
+    "static/js/main.d859c95c.chunk.js"
   ]
 }
