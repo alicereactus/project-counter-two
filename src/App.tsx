@@ -1,9 +1,7 @@
 import React, { useState, ChangeEvent } from 'react';
-
-import Display from './components/Display/Display';
-import SetMenu from './components/SetMenu/SetMenu';
-
 import './App.css';
+import Display from './Display/Display';
+import SetMenu from './SetMenu/SetMenu';
 
 function App() {
 
@@ -15,6 +13,10 @@ function App() {
   const [show, setShow] = useState<number | string>(Number(localStorage.startValue) ? Number(localStorage.startValue) : 0)
 
   const changeStartValue = (e: ChangeEvent<HTMLInputElement>) => {
+    // const setStart = localStorage.setItem('startValue', JSON.stringify(Number(e.currentTarget.value)))
+    // const getStart = localStorage.getItem('startValue') || `${setStart}`
+    // const parseStart = (typeof getStart === 'string') ? JSON.parse(getStart) : ''
+    // setStartLoc(parseStart)
     let parseStart: number = +e.currentTarget.value
     if (parseStart >= -1 && locMax >= -1) {
       setStartLoc(parseStart)
@@ -26,6 +28,10 @@ function App() {
   }
 
   const changeMaxValue = (e: ChangeEvent<HTMLInputElement>) => {
+    // const setMax = localStorage.setItem('maxValue', JSON.stringify(Number(e.currentTarget.value)))
+    // const getMax = localStorage.getItem('maxValue') || `${setMax}`
+    // const parseMax = (typeof getMax === 'string') ? JSON.parse(getMax) : ''
+    // setMaxLoc(parseMax)
     let parseMax: number = +e.currentTarget.value
     if (parseMax >= -1 && locStart >= -1) {
       setMaxLoc(parseMax)
@@ -82,6 +88,7 @@ function App() {
         show={show}
         increment={increment}
         reset={reset} />
+
     </div>
   );
 }
